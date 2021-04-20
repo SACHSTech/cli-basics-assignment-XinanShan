@@ -1,1 +1,22 @@
-
+~/cli-basics-assignment-XinanShan$ pwd
+/home/runner/cli-basics-assignment-XinanShan
+~/cli-basics-assignment-XinanShan$ mkdir CLIBasicsFolder
+~/cli-basics-assignment-XinanShan$ ls
+CLIBasicsFolder  README.md  TerminalSession.txt
+~/cli-basics-assignment-XinanShan$ cd CLIBasicsFolder
+~/cli-basics-assignment-XinanShan/CLIBasicsFolder$ touch myfile.txt
+~/cli-basics-assignment-XinanShan/CLIBasicsFolder$ echo Andy ICS4U1b >> myfile.txt
+~/cli-basics-assignment-XinanShan/CLIBasicsFolder$ cat myfile.txt
+Andy ICS4U1b
+~/cli-basics-assignment-XinanShan/CLIBasicsFolder$ cp myfile.txt myfile_copy.txt
+~/cli-basics-assignment-XinanShan/CLIBasicsFolder$ ls
+myfile_copy.txt  myfile.txt
+~/cli-basics-assignment-XinanShan/CLIBasicsFolder$ mv myfile_copy.txt myfile2.txt
+~/cli-basics-assignment-XinanShan/CLIBasicsFolder$ mv myfile2.txt ~
+~/cli-basics-assignment-XinanShan/CLIBasicsFolder$ ls ~
+cli-basics-assignment-XinanShan  myfile2.txt  _test_runner.py
+~/cli-basics-assignment-XinanShan/CLIBasicsFolder$ cd ..
+~/cli-basics-assignment-XinanShan$ rm /home/runner/cli-basics-assignment-XinanShan/CLIBasicsFolder/myfile.txt
+~/cli-basics-assignment-XinanShan$ rmdir CLIBasicsFolder
+~/cli-basics-assignment-XinanShan$ ls ~
+cli-basics-assignment-XinanShan  myfile2.txt  _test_runner.py
