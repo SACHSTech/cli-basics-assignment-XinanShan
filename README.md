@@ -7,7 +7,7 @@ Perform the following commands in order. Use TAB (autocomplete whenever necessar
 2. create a new directory called `CLIBasicsFolder`
 3. list the contents of the current directory to verify the new directory has been created
 4. change directory to `CLIBasicsFolder`
-5. create a new file called `myfile.txt`
+5. create a new file called `myfile.tlsxt`
 6. write your name and the course number to the `myfile.txt`
 7. display the contents of `myfile.txt`
 8. make a copy of `myfile.txt`, call it `myfile_copy.txt`
